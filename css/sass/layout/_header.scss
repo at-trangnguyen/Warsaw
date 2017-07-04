@@ -1,0 +1,33 @@
+.header {
+  @extend %clearfix;
+  padding: 15px 0;
+  .logo-header {
+    float: left;
+  }
+  .main-menu {
+    float: right;
+    .menu-list {
+      @extend %clearfix;
+      .menu-item {
+        float: left;
+        margin-left: 50px;
+        a {
+          text-transform: uppercase;
+          font-size: 13px;
+          line-height: 30px;
+          color: $color-b;
+          padding: 25px 0;
+        }
+      }
+      .menu-item.dropdown {
+        a {
+          padding-right: 5px;
+        }
+        &::after {
+          content: "\f107";
+          font-family: $font-awesome;
+        }
+      }
+    }
+  }
+}

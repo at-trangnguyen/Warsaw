@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Grand+Hotel");
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address,
+del, em, img, small, strong, b, u, i, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+button,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-wrap: break-word; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: inherit;
+  font-weight: inherit;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figure, footer, header, menu, nav, section, summary {
+  display: block; }
+
+.header::after, .header .main-menu .menu-list::after, .row::after {
+  clear: both;
+  content: "";
+  display: block;
+  visibility: hidden; }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  color: #777;
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400; }
+
+li {
+  list-style: none; }
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+h1, h2, h3, h4 {
+  color: #333; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px; }
+
+.header {
+  padding: 15px 0; }
+  .header .logo-header {
+    float: left; }
+  .header .main-menu {
+    float: right; }
+    .header .main-menu .menu-list .menu-item {
+      float: left;
+      margin-left: 50px; }
+      .header .main-menu .menu-list .menu-item a {
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 30px;
+        color: #333;
+        padding: 25px 0; }
+    .header .main-menu .menu-list .menu-item.dropdown a {
+      padding-right: 5px; }
+    .header .main-menu .menu-list .menu-item.dropdown::after {
+      content: "\f107";
+      font-family: "FontAwesome"; }
+
+.row {
+  margin: 0 -15px; }
+
+.col-3 {
+  float: left;
+  width: calc(100% / 12 * 3); }
+
+.col-4 {
+  float: left;
+  width: calc(100% / 12 * 4); }
+
+.col-5 {
+  float: left;
+  width: calc(100% / 12 * 5); }
+
+.col-6 {
+  float: left;
+  width: 50%; }
+
+.col-7 {
+  float: left;
+  width: calc(100% / 12 * 7); }
+
+.col-8 {
+  float: left;
+  width: calc(100% / 12 * 8); }
+
+.align-text {
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
